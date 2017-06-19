@@ -1,0 +1,10 @@
+framework module RNCSideOutMenu {
+  umbrella header "RNCSideOutMenu.h"
+
+  export *
+  module * { export * }
+}
+
+module RNCSideOutMenu.Swift {
+    header "RNCSideOutMenu-Swift.h"
+}
