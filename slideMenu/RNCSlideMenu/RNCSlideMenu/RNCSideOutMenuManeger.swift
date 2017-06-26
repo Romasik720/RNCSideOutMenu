@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RNCSideOutMenuManeger {
+open class RNCSideOutMenuManeger {
 	
 	var customtransitionDelegate:RNCTransitionDelegate = RNCTransitionDelegate()
 	

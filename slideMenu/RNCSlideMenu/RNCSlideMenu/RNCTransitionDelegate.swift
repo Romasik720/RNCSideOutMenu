@@ -13,7 +13,7 @@ private let sideMenuDismissAnimation = SideMenuDismissAnimation()
 private let swipeInteractionController = SwipeInteractionController()
 private let swipePresentInteractionController = SwipePresentInteractionController()
 
-class RNCTransitionDelegate: NSObject, UIViewControllerTransitioningDelegate {
+ class RNCTransitionDelegate: NSObject, UIViewControllerTransitioningDelegate {
 
 	func addInteractionPresentFor(presented:UIViewController, presenting:UIViewController) {
 		presenting.transitioningDelegate = self

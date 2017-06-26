@@ -12,7 +12,7 @@ class SecondViewController: UIViewController, RNCAnimateTransitionProtocol {
 	
 	@IBOutlet var avaView:UIButton!
 
-	var customtransitionDelegate:RNCTransitionDelegate = RNCTransitionDelegate()
+//	var customtransitionDelegate:RNCTransitionDelegate = RNCTransitionDelegate()
 	
 	static func getViewController () -> SecondViewController? {
 		
