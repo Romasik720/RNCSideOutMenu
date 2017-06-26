@@ -16,7 +16,7 @@ open class RNCSideOutMenuManeger {
 	
 	var menuViewController : UIViewController
 	
-	init<T:UIViewController, P: UIViewController>(withFrontViewController frontVC:T, andMenuViewController menuVC:P) where T:RNCAnimateTransitionProtocol, P:RNCAnimateTransitionProtocol{
+	public init<F:UIViewController, M: UIViewController>(withFrontViewController frontVC:F, andMenuViewController menuVC:M) where F:RNCAnimateTransitionProtocol, M:RNCAnimateTransitionProtocol{
 		
 		self.frontViewController = frontVC
 		self.menuViewController = menuVC

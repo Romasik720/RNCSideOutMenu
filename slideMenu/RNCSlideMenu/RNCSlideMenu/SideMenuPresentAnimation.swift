@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc protocol RNCAnimateTransitionProtocol  {
+@objc public protocol RNCAnimateTransitionProtocol  {
 	func viewForAnimate() -> UIView
 	@objc optional
 	func imageForNavigationBarButton() -> UIImage
